@@ -1,0 +1,8 @@
+- attribute: &peer-reviewed
+- attribute: &honorable-mention
+- attribute: &best-student-paper
+
+- attribute: &teaching
+
+- attribute: &software
+    description: Programming is a long-time hobby.

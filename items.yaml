@@ -1,0 +1,412 @@
+- items:
+
+    - date:  2019-11-11
+      url: https://twitter.com/mlfailures
+      title: @mlfailures
+      description: A twitter account compiling machine learning failures, meant to help us all do better in the future.
+      collaborators:
+        - &sam-greenberg
+        - &inderpal-kaur
+        - &nick-merrill
+      projects: 
+        - &daylight-lab
+
+    - date: 2019-11-13
+      url: https://medium.com/cltc-bulletin/cybersecurity-imagery-dataset-65740316c0fe
+      title: Cybersecurity Imagery Dataset
+      description: Two years of Google Image Search results from 28 different cybersecurity-related search terms. 
+      collaborators:
+        - &nick-merrill
+        - &john-chaung
+      links:
+        - url: https://www.kaggle.com/daylight-lab/cybersecurity-imagery-dataset/
+          title: Full dataset (Kaggle)
+      projects:
+        - &daylight-lab
+
+
+    - date: 2019-10-29
+      url: https://medium.com/cltc-bulletin/dont-call-it-a-hack-379a35a828cd
+      title: Don’t call it a “hack”
+      description:  “Hack” confuses what is useful, clever, and resourceful, with what is aggressive, dangerous, and illegal. We provide more specific alternative---like \"breach,\" \"espionage,\" \"stalking,\" \"harassment,\" \"theft.\"
+      collaborators:
+        - &nick-merrill
+        - &steve-weber
+        - &ann-cleaveland
+      projects:
+        - &daylight-lab
+
+    - date: 2019-10-09
+      url: https://cltc.berkeley.edu/artscontest2019/
+      title: Cybersecurity Arts Contest
+      description: Contemporary tropes of security’s representation (e.g., the “hacker in the hoodie,” the “scrolling green code,” etc) fail to capture the gravity, impact, and reach of security in daily life. In 2019, we funded six artists to help them develop works that push forward representations of cybersecurity.
+      press:
+        - url: https://www.darkreading.com/works-of-art-cybersecurity-inspires-6-winning-ideas/d/d-id/1336055
+          title: Works of Art: Cybersecurity inspires 6 winning ideas
+          publication: DarkReading
+          date: 2019-10-10
+      collaborators:
+        - &nick-merrill
+        - &ann-cleaveland
+        - &steve-weber
+      projects:
+        - &daylight-lab
+
+    - date: 2019-28-06
+      url: https://cosmopol.is/assets/dis2019.pdf 
+      title: Sensing is Believing: What people think biosensors can reveal about thoughts and feelings
+      description: (DIS \'19). A large-ish survey reveals what people *think* sensors can reveal about thoughts and feelings.
+      links:
+        - url: https://dl.acm.org/citation.cfm?id=3322286 
+          title: ACM DL
+      collaborators:
+        - &nick-merrill
+        - &john-chaung
+        - &coye-cheshire
+      projects:
+        - &mind-reading-machines
+      attributes:
+        - &peer-reviewed
+
+    - date: 2019-05-20
+      url: https://cosmopol.is/assets/altchi2019.pdf
+      title: Models of Minds: Reading the mind beyond the brain
+      description: (alt.chi \'19). I argue that the mind is readable from sensors worn on the body, and embedded in the environment, and that prior work in HCI has already begun building \"models of minds.\"
+      collaborators:
+        - &nick-merrill
+        - &john-chaung
+      links:
+        - url: https://dl.acm.org/citation.cfm?id=3310427
+          title: ACM DL
+      projects:
+        - &mind-reading-machines
+      attributes:
+        - &peer-reviewed
+
+    - date: 2019-04-30
+      title: One-Step, Three-Factor Passthought Authentication with Custom-Fit, In-Ear EEG
+      url: https://www.frontiersin.org/articles/10.3389/fnins.2019.00354/full
+      description: (Frontiers in Neuroscience). A custom-fit in-ear EEG device provides three-factor authentication in a single step---to our knowledge, the first authentication scheme to do so.
+      collaborators:
+        - &nick-merrill
+        - &max-curran
+        - &swapan-gandhi
+        - &john-chaung
+      links:
+        - url: https://www.frontiersin.org/articles/10.3389/fnins.2019.00354
+          title: frontiersin.org
+      projects:
+        - &passthoughts
+      attributes:
+        - &peer-reviewed
+
+    - date: 2019-04-30
+      title: Adversary personas
+      url: https://daylight.berkeley.edu/adversary-personas/
+      description: Adversary Personas is an improvisational role-playing game designed to help teams identify adversaries to sociotechnical systems.
+      links:
+        - url: https://daylight.berkeley.edu/adversary-personas/
+          title: Download the cards
+      collaborators:
+        - &nick-merrill
+        - &noura-howell
+      projects:
+        - &daylight-lab
+
+    - date: 2018-06-13
+      title: An Interface Without a User: An exploratory design study of online privacy policies and digital legalese
+      url: https://cosmopol.is/assets/dis2018b.pdf
+      description: (DIS \'19). Privacy policies are critical to understanding one's rights on online platforms, yet few users read them. We approached this issue from the perspective of interaction design, providing a variety of people with printed packets of privacy policies, aiming to imagine creative alternatives to existing privacy policies.
+      collaborators:
+        - &james-pierce
+        - &sarah-fox
+        - &nick-merrill
+        - &richmond-wong
+        - &carl-disalvo
+      links:
+        - url: https://dl.acm.org/citation.cfm?id=3196818
+          title: ACM DL
+      projects:
+        - &daylight-lab
+      attributes:
+        - &peer-reviewed
+
+    - date: 2019-11-01
+      title: Differential Vulnerabilities and a Diversity of Tactics: What toolkits teach us about cybersecurity
+      url: https://cosmopol.is/assets/cscw2018.pdf
+      description: (CSCW \'19). We analyze 41 \"cybersecurity toolkits,\" collections of public facing materials intended to help users achieve security online. Through our analysis, we center contribute to the security discourse a notion of /differential vulnerabilities/, an understanding of security that recognizes safety and risk as differentially applied based on relational markers (e.g. class, race, religion, gender, geography, experience).
+      collaborators:
+        - &james-pierce
+        - &sarah-fox
+        - &nick-merrill
+        - &richmond-wong
+      links:
+        - url: https://dl.acm.org/citation.cfm?id=3274408
+          title: ACM DL
+      projects:
+        - &daylight-lab
+      attributes:
+        - &peer-reviewed
+
+    - date: 2018-05-03
+      title: Mind Reading & Telepathy for Beginners & Intermediates: What people think machines can know about the mind, and why their beliefs matter
+      url: https://cosmopol.is/assets/dissertation.pdf
+      description: My PhD dissertation at the UC Berkeley School of Information. Through a few case studies, I argue that people (designers and users) /believe/ that machines can \"read\" or \"decode\" the contents of the mind. I argue that these beliefs matter, fundamentally shifting our notions of what the mind is.
+      collaborators:
+        - &nick-merrill
+      links:
+        - url: https://www.ischool.berkeley.edu/research/publications/2018/mind-reading-and-telepathy-beginners-and-intermediates-what-people-think
+          title: ischool.berkeley.edu
+      projects:
+        - &mind-reading-machines
+
+    - date: 2018-06-01
+      title: When BCIs have APIs: Design fictions of everyday brain-computer interface adoption
+      url: https://escholarship.org/content/qt9hk3d4ng/qt9hk3d4ng.pdf
+      description: (DIS \'18). We use design fiction to explore the social implications for adoption of brain-computer interfaces (BCI). We argue that existing speculations about BCIs are incomplete: they discuss fears about radical changes in types of control, at the expense of discussing more traditional types of power, particularly labor. We present a design fiction in which a BCI technology creates a new type of menial labor, using workers' unconscious reactions to assist algorithms in performing a sorting task. Through these fictions, we deepen and expand conversations around what kinds of futures BCIs could create.
+      collaborators:
+        - &richmond-wong
+        - &nick-merrill
+      links:
+        - url: https://dl.acm.org/citation.cfm?id=3196746
+          title: ACM DL
+      projects:
+        - &mind-reading-machines
+      attributes:
+        - &peer-reviewed
+        - &honorable-mention
+
+      url: https://dl.acm.org/citation.cfm?id=3205451
+      description: (DIS \'18). We map a slice of the \"social VR\" ecosystem, comparing ways different applications frame, support, shape, or constrain social interaction. 
+      collaborators:
+        - &joshua-mcveigh-schultz
+        - &elena-marquez-segura
+        - &nick-merrill
+        - &katherine-isbister
+      links:
+        - url: https://dl.acm.org/citation.cfm?id=3205451
+          title: ACM DL
+      projects:
+        - &virtual-worlds
+      attributes:
+        - &peer-reviewed
+
+
+    - date: 2018-04-26
+      title: From Scanning Brains to Reading Minds: Talking to engineers about brain-computer interface.
+      url: https://cosmopol.is/assets/chi2018.pdf
+      description: (CHI \'18). We presented software engineers in the San Francisco Bay Area with a working brain-computer interface (BCI) to surface the narratives and anxieties around these devices among technical practitioners. Despite this group's heterogeneous beliefs about the exact nature of the mind, we find a shared belief that the contents of the mind will someday be "read' or "decoded' by machines. We highlight opportunities for researchers to involve themselves preemptively in this nascent space of intimate biosensing devices, suggesting our findings' relevance to long-term futures of privacy and cybersecurity.
+      links:
+        - url: https://dl.acm.org/citation.cfm?id=3173897 
+          title: ACM DL
+      collaborators:
+        - &nick-merrill
+        - &john-chuang
+      projects:
+        - &mind-reading-machines
+        - &passthoughts
+      attributes:
+        - &peer-reviewed
+
+    - date: 2018-10-25
+      title: Faking it, Making it: Fooling and improving brain-based authentication with generative adversarial networks
+      url: https://cosmopol.is/assets/btas2018.pdf
+      description: (BTAS \'18). We empirically demonstrate the vulnerability of a passthought authentication system to fake signals generated by Generative Adversarial Networks (GANs), and use these same signals to make authenticators more robust.
+      collaborators:
+        - &tanya-piplani
+        - &nick-merrill
+        - &john-chuang
+      links:
+        - url: https://ieeexplore.ieee.org/document/8698606
+          title: IEEE
+      projects:
+        - &passthoughts
+      attributes:
+        - &peer-reviewed
+
+
+    - date: 2018-09-20
+      title: Exploring the Feasibility and Performance of One-Step Multi-Factor Authentication with Ear-EEG
+      url: https://cosmopol.is/assets/phycs2018.pdf
+      description: (PhyCS \'17). We demonstrate a passthoughts authentication system that collects data from the ear canal. We show that this system is resistant to impersonation attacks (i.e., you can't break into it even if you know the secret thought). This result provides reasonably strong evidence that passthoughts combines knowledge and inherence factors into a single step.
+      collaborators:
+        - &max-curran
+        - &nick-merrill
+        - &swapan-gandhi
+        - &john-chuang
+      links:
+        - url: http://insticc.org/node/TechnicalProgram/phycs/presentationDetails/68963
+          title: insticc.org
+      projects:
+        - &passthoughts
+      attributes:
+        - &peer-reviewed
+        - &best-student-paper
+
+    - date: 2017-06-24
+      title: Better Not to Know?: The SHA1 collision & the limits of polemic computation
+      url: https://cosmopol.is/assets/limits17.pdf
+      description: (LIMITS \'17).  In February of 2017, Google announced the first SHA1 collision. Using over nine quintillion computations (over 6,500 years of compute time), a group of academic and industry researchers produced two different PDF files with identical SHA1 checksums. But why? After all, SHA1 had already been deprecated by numerous standards and advisory bodies. This paper uses the SHA1 collision compute as a site for surfacing the space of ecological risks, and sociotechnical rewards, associated with the performance of large computes. I propose a theory of /polemic computation/, in which computes exert agency in sociotechnical discourses not through computational results, but through /feats/, the expenditure of significant material resources. This paper does not make specific claims about the (ecological, political, labor) limits within which polemic computes must operate in order to be considered acceptable. Instead, this paper raises the question of how such limits could be established, in the face of polemic computes' significant costs and difficult-to-measure rewards.
+      collaborators:
+        - &nick-merrill
+      links:
+        - url: https://dl.acm.org/citation.cfm?id=3084082
+          title: ACM DL
+      projects:
+        - &daylight-lab
+      attributes:
+        - &peer-reviewed
+
+  - date: 2017-10-04
+    title: Is the Future of Authenticity All In Our Heads? Moving passthoughts from the lab to the world
+    url: https://cosmopol.is/assets/nspw2017.pdf
+    description: (NSPW \'17). We outline the main challenges that passthoughts would need to overcome in order to move from the lab to the real world. Further, we propose passthoughts as a fruitful case study for thinking about what sorts of "selves" authentication systems must be tasked with recognizing. We raise novel possibilities for authentication broadly, such as \"organic passwords\" that change naturally over time, or systems that reject users who are not acting quite \"like themselves.\"
+    collaborators:
+      - &nick-merrill
+      - &max-curran
+      - &john-chuang
+    links:
+      - url: https://doi.org/10.1145/3171533.3171537
+        title: ACM DL
+    projects:
+      - &passthoughts
+    attributes:
+      - &peer-reviewed
+
+  - date: 2017-09-15
+    title: One-step, three-factor authentication in a single earpiece
+    url: https://cosmopol.is/assets/ubicomp2017.pdf
+    description: (UBICOMP \'17). Multifactor authentication typically requires multiple steps on the part of the user resulting in a high cost to usability and limiting adoption. We present a system that provides all three factors of authentication (knowledge, possession, and inherence) in a single step\: an earpiece which implements brain-based authentication via custom-fit, in-ear electroencephalography (EEG).
+    collaborators:
+      - &max-curran
+      - &nick-merrill
+      - &john-chuang
+      - &swapan-gandhi
+    links:
+      - url: https://dl.acm.org/citation.cfm?id=3123087
+        title: ACM DL
+    projects:
+      - &passthoughts
+    attributes:
+      - &peer-reviewed
+
+  - date: 2016-06-17
+    title: Classifying Mental Gestures with In-Ear EEG
+    url: https://cosmopol.is/assets/BSN2016.pdf
+    description: (BSN \'17). Brain-computer interfaces (BCI) based on electroencephalography (EEG) have improved dramatically over the past five years, but their inconvenient form factor has challenged their wider adoption. We investigate how EEG signals collected from the ear (e.g., an earbud) could be used for “gestural” control of a brain-computer interface (BCI). We find that an SVC reaches acceptable BCI accuracy for nine of the subjects in our pool (n=12), and distinguishes at least one pair of gestures better than chance for all subjects.
+    collaborators:
+      - &nick-merrill
+      - &max-curran
+      - &jong-kai-yang
+      - &john-chuang
+    links:
+      - url: https://ieeexplore.ieee.org/document/7516246
+        title: IEEE
+    projects:
+      - &passthoughts
+    attributes:
+      - &peer-reviewed
+
+  - date: 2016-04-01
+    title: Trust Your Heart: Assessing cooperation and trust with biosignals in computer-mediated interactions
+    url: https://cosmopol.is/assets/cscw2017.pdf
+    description: (CSCW \'17). We study digitally-mediated heartrate sharing in a controlled experiment. Through quantitative and qualitative analyses, we find that \"elevated\" (versus \"normal\") heartrate of an exchange partner is associated with negative mood attributions and reduced cooperation in a social dilemma game. To investigate how specific our findings are to heartrate (as opposed to some other \"elevated\" biosignal), we replicate our initial experiment with a fictitious biosignal, \"skin reflectivity\". We observe a decrease in cooperative behavior only with elevated heartrate. Our findings highlight the role prior beliefs can play in shaping interpretations of a biosignal, while suggesting that designers can, perhaps inadvertently, train users to associate signals with social meanings. We discuss implications for how wearable sensors can mediate social interactions.
+    collaborators:
+      - &nick-merrill
+      - &coye-cheshire
+    - links:
+        url: https://dl.acm.org/citation.cfm?id=2998286
+      title: ACM DL
+    projects:
+      - &mind-reading-machines
+    attributes:
+      - &peer-reviewed
+      - &honorable-mention
+
+  - date: 2017-08-22
+    title: INFO 290T: Mind Reading & Telepathy for Beginners & Intermediates
+    url: http://courses.ischool.berkeley.edu/i290t-mrt/f17/
+    description: To what extent can a machine know the inner workings of a person's mind, even theoretically? This course explores this question through a mixture of hands-on machine learning and critical discussions on theory. Students practice ML techniques on a provided corpus of data to produce a working brain-computer interface. Simultaneously, students engage critically with recent research in ubiquitous sensing technologies, and the discourse around them, tracing ideas to their origins in cognitive science.
+    collaborators:
+      - &nick-merrill
+      - &john-chuang
+    links:
+      - url: https://www.ischool.berkeley.edu/courses/info/290t/mrt
+        title: ischool.berkeley.edu
+    projects:
+      - &mind-reading-machines
+    attributes:
+      - &teaching
+
+  - date: 2016-11-16
+    title: Habits of the Heart (rate): Social interpretation of biosignals in two interaction contexts
+    url: https://cosmopol.is/assets/group2016.pdf
+    description: We describe the results of a randomized vignette experiment in which subjects were asked to make assessments about an acquaintance based on an imagined scenario that included shared heartrate information, comparing results from adversarial and non-adversarial contexts of interaction. Our analysis points to the role of social expectations in shaping interpretations of heartrate.
+    collaborators:
+      - &nick-merrill
+      - &coye-cheshire
+    links:
+      - url: https://dl.acm.org/citation.cfm?id=2998286
+        title: ACM DL
+    projects:
+      - &mind-reading-machines
+    attributes:
+      - &peer-reviewed
+
+  - date: 2016-06-02
+    title: aaronson oracle
+    url: http://people.ischool.berkeley.edu/~nick/aaronson-oracle/
+    description: Press the \'f\' and \'d\' keys randomly. Just use your \"free will.\"
+    collaborators:
+      - &nick-merrill
+    links:
+      - url: https://news.ycombinator.com/item?id=11824164
+        title: Hacker News
+      - url: https://github.com/elsehow/aaronson-oracle
+        title: GitHub
+    attributes:
+      - &software
+
+  - date: 2016-08-01
+    title: Passthoughts Authentication with Low-Cost EarEEG
+    url: https://cosmopol.is/assets/embc2016.pdf
+    description: (EMBC \'16). We attempt to build a passthoughts system using electroencephalography (EEG) signals collected from the ear. We conclude that in-ear EEG shows potential as a uniquely convenient authentication method, and that the mental gestures generating the signal are invisible to would-be eavesdroppers.
+    collaborators:
+      - &max-curran
+      - &jong-kai-yang
+      - &nick-merrill
+      - &john-chuang
+    links:
+      - url: https://www.ncbi.nlm.nih.gov/pubmed/28268717
+        title: PubMed (nih.gov)
+    projects:
+      - &passthoughts
+    attributes:
+      - &peer-reviewed
+
+  - date: 2014-01-01
+    end-date: 2017-01-01
+    title: npm modules
+    url: https://www.npmjs.com/~elsehow
+    description: 60+ tiny, one-thing-well javascript libraries.
+    collaborators:
+      - &nick-merrill
+    attributes:
+      - &software
+
+  - date: 2014-05-01
+    title: Virtually friends: An exploration of friendship claims and expectations in immersive virtual worlds
+    url: https://jvwr-ojs-utexas.tdl.org/jvwr/index.php/jvwr/article/viewFile/7024/6341
+    description: (Journal for Virtual Worlds Research). We  explore the nature of friendship in the virtual world /Second Life/ through 65 semi-structured interviews with residents. 
+    links:
+      - url: https://journals.tdl.org/jvwr/index.php/jvwr/article/view/7024
+        title: tdl.org
+    collaborators:
+      - &brooke-foucault-welles
+      - &nick-merrill
+      - &thomas-rousse
+      - &noshir-contractor
+    projects:
+      - &virtual-worlds
+    attributes:
+      - &peer-reviewed

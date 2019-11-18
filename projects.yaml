@@ -1,0 +1,75 @@
+
+- project: &passthoughts
+    name: Passthoughts
+    description: |
+      In the beginning of my PhD, I worked on passthought authentication. Passthought authentication allows you to think a secret thought to log into things.
+      A brainscanning device (in your ear) collects signatures of the corresponding neural activity and uses them as a password, or passthought.
+      Why passthoughts? Well, traditional passwords are easy to guess and difficult to remember, while possession factors (like phones or fobs) are easy to lose. Meanwhile, biometric identifiers like fingerprints are easy to steal and difficult to change (remember the eyeball transplant scene from Minority Report?).
+      Passthoughts combine multiple factors of authentication into a single step: a knowledge factor (your secret thought), and a biometric factor (the unique way you express your thought neurally). Passthoughts are easy to change, but tough for an attacker to fake, even if they know their target's secret thought.
+      I see of passthoughts as a good way to protect something important, like a password manager. I also see it as a useful test-case for probing the future of consumer brain-computer interface.
+    press:
+      - url: https://medium.com/neodotlife/passthought-27f5e2921011
+        title: When computers read your mind, you’ll need a great passthought
+        publication: NEO.LIFE
+        date: 2017-07-15
+      - url: http://techonomy.com/2017/06/will-brainwaves-be-your-next-password/
+        title: Will your next password be a brainwave?
+        publication: Techonomy
+        date: 2017-06-20
+      - url: http://kron4.com/2016/11/18/tech-report-new-brainwave-reading-tech-from-cal-berkeley-released/
+        title: New brainwave reading tech from Cal Berkeley released
+        publication: KRON4
+        date: 2016-11-18
+      - url: https://spectrum.ieee.org/the-human-os/biomedical/devices/in-ear-eeg-makes-unobtrusive-brain-hacking-gadgets-a-real-possibility
+        title: In-Ear EEG Makes Unobtrusive Brain-Hacking a Real Possibility
+        publication: IEEE Spectrum
+        date: 2016-07-07
+      - url: https://www.cnet.com/news/secure-data-with-eyes-voice-face-and-brain-waves/
+        title: Use your eyes, voice -- and thoughts -- to replace passwords
+        publication: CNET
+        date: 2016-07-04
+      - url: https://www.techrepublic.com/article/is-it-time-to-replace-passwords-with-passthoughts/
+        title: Is it time to replace passwords with passthoughts?
+        publication: Tech Republic
+        date: 2015-03-17
+      - url: https://www.cnbc.com/id/100625080
+        title: Replace your password with brainwaves? Yes, really
+        publication: CNBC
+        date: 2013-04-19
+      - url: https://venturebeat.com/2013/04/08/pass-thoughts/
+        title: Brain drain: Your thoughts could soon replace passwords
+        publication: Venturebeat
+        date: 2013-04-08
+      - url: http://shop.cricketmedia.com/Muse-Magazine-March-2018.html
+        title: Hacked! The heroes & villains of computer security
+        publication: Muse Magazine.
+        date: 2017-03-01
+
+- project: &mind-reading-machines
+    name: Mind-reading machines
+    description: |
+      While working on passthoughts, I began to wonder: what can machines know about the mind?
+      My dissertation sought to understand people's beliefs about this question: how these beliefs affect (and arise from) interactions with digital sensors, from prior beliefs about the mind and the body—and how these beliefs shape the design of technical systems.
+      I built a working brain-computer interface to study how software engineers conceive of the brain and mind (CHI '18), and studied how people build emotional interpretations around basic biosignals (CSCW '17).
+    press:
+      - url: https://www.cnet.com/news/facebook-f8-building-8-moonshot-projects-zuckerberg-regina-dugan/
+        title: Facebook's moonshots: Making brains type and skin hear
+        publication: CNet
+        date: 2017-04-19
+
+- project: &daylight-lab
+    name: Daylight Lab
+    description: |
+      After my PhD, I was convinced that mind-reading machines pose novel security risks. However, these threats were difficult to take action on, in part because they are difficult to understand.
+      I began to think broadly about the potential harms of technology, and how well the frame of "security" helps relevant stakeholders identify and deal with these harms. Currently, “security” lurks in the shadows; literally, in imagery of hackers in hoodies, but also figuratively. Language for describing, imagery for representing, and tactics for understanding security fall short. They fail to spur people to take relevant actions.
+      I started the Daylight Lab at the UC Berkeley Center for Long-Term Cybersecurity to address these questions. The lab aims to shift the way people portray, discuss, and understand cybersecurity. By generating novel tools, practices, and representations, we aim to make "security" specific and actionable to the people who need it.
+    press:
+      - url: https://www.forbes.com/sites/seanlawson/2019/11/14/what-color-is-cybersecurity/#5b7f4b97bc8b
+        title: What Color Is Cybersecurity?
+        publication: Forbes
+        date: 2019-11-14
+
+- project: &virtual-worlds
+    name: Virtual reality
+    description: |
+      Before my PhD, I started my research career studying virtual worlds as an undergraduate research assistant with Brooke Foucault Welles.

@@ -1,6 +1,9 @@
 - attribute: &peer-reviewed
+    - name: peer-reviewed
 - attribute: &honorable-mention
+    - name: honorable mention
 - attribute: &best-student-paper
+    - name: best-student-paper
 
 - attribute: &teaching
 

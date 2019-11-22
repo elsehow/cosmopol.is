@@ -1,0 +1,127 @@
+- collaborator: &nick-merrill
+  name: Nick Merrill
+  links:
+    - url: https://cosmopol.is
+      title: Personal website
+
+- collaborator: &john-chuang
+  name: John Chuang
+  links:
+    - url: https://people.ischool.berkeley.edu/~chuang/
+      title: ischool.berkeley.edu
+
+- collaborator: &max-curran
+  name: Max T. Curran
+  links:
+    - url: https://www.maxtcurran.com/
+      title: Personal website
+
+- collaborator: &swapan-gandhi
+  name: Swapan Gandhi
+  links:
+    - url: https://www.linkedin.com/in/swapan-gandhi-37457ab
+      title: LinkedIn
+
+- collaborator: &tanya-piplani
+  name: Tanya Piplani
+  links:
+    - url: https://www.linkedin.com/in/tanya-piplani
+      title: LinkedIn
+
+- collaborator: &jong-kai-yang
+  name: Jong-kai Yang
+  links:
+    - url: https://www.linkedin.com/in/jongkaiyang/
+      title: LinkedIn
+
+- collaborator: &coye-cheshire
+  name: Coye Cheshire
+  links:
+    - url: http://people.ischool.berkeley.edu/~coye/
+      title: ischool.berkeley.edu
+        
+- collaborator: &james-pierce
+  name: James Pierce
+  links:
+    - url: https://www.jamesjpierce.com/
+      title: Personal website
+    - url: https://portal.cca.edu/people/jpierce/
+      title: cca.edu
+
+- collaborator: &sarah-fox
+  name: Sarah Fox
+  links:
+    - url: https://www.sarahfox.info/
+      title: Personal website
+
+- collaborator: &richmond-wong
+  name: Richmond Y. Wong
+  links:
+    - url: https://people.ischool.berkeley.edu/~richmond/
+      title: ischool.berkeley.edu
+
+- collaborator: &noura-howell
+  name: Noura Howell
+  links:
+    - url: https://nourahowell.com
+      title: Personal website
+
+- collaborator: &carl-disalvo
+  name: Carl DiSalvo
+  links:
+    - url: http://carldisalvo.com/
+      title: Personal website
+
+- collaborator: &joshua-mcveigh-schultz
+  name: Joshua McVeigh-Schultz
+  links:
+    - url: http://joshuamcveighschultz.com/
+      title: Perosnal website
+
+- collaborator: &elena-marquez-segura
+  name: Elena Márquez Segura
+  links:
+    - url: https://katalog.uu.se/profile/?id=N13-750
+      title: uu.se
+    - url: https://twitter.com/in_spiral
+      title: Twitter
+
+- collaborator: &katherine-isbister
+  name: Katherine Isbister
+  links:
+    - url: https://www.katherineinterface.com/
+      title: Personal website
+    - url: https://twitter.com/in_spiral
+      title: Twitter
+
+- collaborator: &brooke-foucault-welles
+  name: Brooke Foucault Welles
+  links:
+    - url: https://brooke-welles.squarespace.com/
+      title: Personal website
+
+- collaborator: &thomas-rousse
+  name: Thomas H. Rousse
+  links:
+    - url: http://throusse.com/
+      title: Personal website
+
+- collaborator: &noshir-contractor
+  name: Noshir Contractor
+  links:
+    - url: https://en.wikipedia.org/wiki/Noshir_Contractor
+      title: Wikipedia
+    - url: https://sonic.northwestern.edu/people/noshir-contractor
+      title: sonic.northwestern.edu
+
+- collaborator: &ann-cleaveland
+  name: Ann Cleaveland
+  links:
+    - url: https://www.linkedin.com/in/anncleaveland/
+      title: LinkedIn
+
+- collaborator: &steve-weber
+  name: Steven Weber
+  links:
+    - url: https://www.ischool.berkeley.edu/people/steven-weber
+      title: ischool.berkeley.edu

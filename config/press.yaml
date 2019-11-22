@@ -1,51 +1,59 @@
-press:
-  - url: https://medium.com/neodotlife/passthought-27f5e2921011
-    title: When computers read your mind, you’ll need a great passthought
-    publication: NEO.LIFE
-    date: 2017-07-15
-    project: &passthoughts
-  - url: http://techonomy.com/2017/06/will-brainwaves-be-your-next-password/
-    title: Will your next password be a brainwave?
-    publication: Techonomy
-    date: 2017-06-20
-    project: &passthoughts
-  - url: http://kron4.com/2016/11/18/tech-report-new-brainwave-reading-tech-from-cal-berkeley-released/
-    title: New brainwave reading tech from Cal Berkeley released
-    publication: KRON4
-    date: 2016-11-18
-    project: &passthoughts
-  - url: https://spectrum.ieee.org/the-human-os/biomedical/devices/in-ear-eeg-makes-unobtrusive-brain-hacking-gadgets-a-real-possibility
-    title: In-Ear EEG Makes Unobtrusive Brain-Hacking a Real Possibility
-    publication: IEEE Spectrum
-    date: 2016-07-07
-    project: &passthoughts
-  - url: https://www.cnet.com/news/secure-data-with-eyes-voice-face-and-brain-waves/
-    title: Use your eyes, voice -- and thoughts -- to replace passwords
-    publication: CNET
-    date: 2016-07-04
-    project: &passthoughts
-  - url: https://www.techrepublic.com/article/is-it-time-to-replace-passwords-with-passthoughts/
-    title: Is it time to replace passwords with passthoughts?
-    publication: Tech Republic
-    date: 2015-03-17
-    project: &passthoughts
-  - url: https://www.cnbc.com/id/100625080
-    title: Replace your password with brainwaves? Yes, really
-    publication: CNBC
-    date: 2013-04-19
-    project: &passthoughts
-  - url: https://venturebeat.com/2013/04/08/pass-thoughts/
-    title: Brain drain: Your thoughts could soon replace passwords
-    publication: Venturebeat
-    date: 2013-04-08
-    project: &passthoughts
-  - url: http://shop.cricketmedia.com/Muse-Magazine-March-2018.html
-    title: Hacked! The heroes & villains of computer security
-    publication: Muse Magazine.
-    date: 2017-03-01
-    project: &passthoughts
-  - url: https://www.forbes.com/sites/seanlawson/2019/11/14/what-color-is-cybersecurity/#5b7f4b97bc8b
-    title: What Color Is Cybersecurity?
-    publication: Forbes
-    date: 2019-11-14
-    project: &daylight-lab
+- url: https://medium.com/neodotlife/passthought-27f5e2921011
+  title: When computers read your mind, you’ll need a great passthought
+  publication: NEO.LIFE
+  date: "2017-07-15T00:00:00Z"
+  project: &passthoughts
+
+- url: http://techonomy.com/2017/06/will-brainwaves-be-your-next-password/
+  title: Will your next password be a brainwave?
+  publication: Techonomy
+  date: "2017-06-20T00:00:00Z"
+  project: &passthoughts
+
+- url: http://kron4.com/2016/11/18/tech-report-new-brainwave-reading-tech-from-cal-berkeley-released/
+  title: New brainwave reading tech from Cal Berkeley released
+  publication: KRON4
+  date: "2016-11-18T00:00:00Z"
+  project: &passthoughts
+
+- url: https://spectrum.ieee.org/the-human-os/biomedical/devices/in-ear-eeg-makes-unobtrusive-brain-hacking-gadgets-a-real-possibility
+  title: In-Ear EEG Makes Unobtrusive Brain-Hacking a Real Possibility
+  publication: IEEE Spectrum
+  date: "2016-07-07T00:00:00Z"
+  project: &passthoughts
+
+- url: https://www.cnet.com/news/secure-data-with-eyes-voice-face-and-brain-waves/
+  title: Use your eyes, voice -- and thoughts -- to replace passwords
+  publication: CNET
+  date: "2016-07-04T00:00:00Z"
+  project: &passthoughts
+
+- url: https://www.techrepublic.com/article/is-it-time-to-replace-passwords-with-passthoughts/
+  title: Is it time to replace passwords with passthoughts?
+  publication: Tech Republic
+  date: "2015-03-17T00:00:00Z"
+  project: &passthoughts
+
+- url: https://www.cnbc.com/id/100625080
+  title: Replace your password with brainwaves? Yes, really
+  publication: CNBC
+  date: "2013-04-19T00:00:00Z"
+  project: &passthoughts
+
+- url: https://venturebeat.com/2013/04/08/pass-thoughts/
+  title: "Brain drain: Your thoughts could soon replace passwords"
+  publication: Venturebeat
+  date: "2013-04-08T00:00:00Z"
+  project: &passthoughts
+
+- url: http://shop.cricketmedia.com/Muse-Magazine-March-2018.html
+  title: Hacked! The heroes & villains of computer security
+  publication: Muse Magazine.
+  date: "2017-03-01T00:00:00Z"
+  project: &passthoughts
+
+- url: https://www.forbes.com/sites/seanlawson/2019/11/14/what-color-is-cybersecurity/#5b7f4b97bc8b
+  title: What Color Is Cybersecurity?
+  publication: Forbes
+  date: "2019-11-14T00:00:00Z"
+  project: &daylight-lab

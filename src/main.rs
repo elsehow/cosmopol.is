@@ -1,16 +1,18 @@
 use url::Url;
 use chrono::prelude::DateTime;
-use chrono::prelude::Local;
-use serde::{Serialize, Deserialize};
+use chrono::prelude::Utc;
+use serde::Deserialize;
 use std::fmt;
 
-#[derive(Debug, PartialEq, Deserialize)]
+#[derive(Deserialize)]
 struct Link {
+    // #[serde(with = "url_serde")]
+    // url: Url,
     url: String,
     title: String,
 }
 
-#[derive(Debug, PartialEq, Deserialize)]
+#[derive(Deserialize)]
 struct Collaborator {
     name: String,
     links: Vec<Link>,
@@ -22,17 +24,26 @@ impl fmt::Display for Collaborator {
     }
 }
 
-struct Attribute {
-    name: String,
-    description: Option<String>,
-}
-
+#[derive(Deserialize)]
 struct Press {
-    url: Url,
+    // #[serde(with = "url_serde")]
+    // url: Url,
+    url: String,
     title: String,
     publication: String,
     project: String,
-    date: DateTime<Local>,
+    date: DateTime<Utc>,
+}
+impl fmt::Display for Press {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(f, "{}. {}. {}.", self.publication, self.title, self.date)
+    }
+}
+
+
+struct Attribute {
+    name: String,
+    description: Option<String>,
 }
 
 struct Project {
@@ -42,7 +53,7 @@ struct Project {
 
 
 struct Item {
-    date: DateTime<Local>,
+    date: DateTime<Utc>,
     url: Url,
     title: String,
     description: String,
@@ -58,7 +69,12 @@ struct Item {
 
 fn main() -> Result<(), Box<std::error::Error>> {
     let f = std::fs::File::open("config/collaborators.yaml")?;
-    let d: Vec<Collaborator> = serde_yaml::from_reader(f)?;
-    println!("{}", d.first().unwrap());
+    let collaborators: Vec<Collaborator> = serde_yaml::from_reader(f)?;
+    // println!("{}", collaborators.first().unwrap());
+
+    let f = std::fs::File::open("config/press.yaml")?;
+    let press: Vec<Press> = serde_yaml::from_reader(f)?;
+    println!("{}", press.first().unwrap());
+
     Ok(())
 }
